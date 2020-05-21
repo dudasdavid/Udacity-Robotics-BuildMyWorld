@@ -7,6 +7,14 @@
 [image1]: ./images/gazebo_screen.png "Gazebo"
 [image2]: ./images/terminal_screen.png "Terminal"
 
+### Project build instrctions:
+1. Clone this repo.
+2. Make a build directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make` 
+4. Export GAZEBO_PLUGIN_PATH: `export GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:~/Udacity-Robotics-BuildMyWorld/build`
+5. Go to world directory
+6. Open Gazebo: `gazebo MyWorld.world`
+
 ### Summary of Tasks:
 * Build a single floor wall structure using the Building Editor tool in Gazebo. Apply at least one feature, one color, and optionally one texture to your structure. Make sure there's enough space between the walls for a robot to navigate. 
 * Model any object of your choice using the Model Editor tool in Gazebo. Your model links should be connected with joints. 
